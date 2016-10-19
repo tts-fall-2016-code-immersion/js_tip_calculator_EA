@@ -4,7 +4,7 @@ function tip(bill_amount){
   return total_bill = tip_amount + bill_amount
 };
 
-console.log(alert("Your total bill, including tip, is " + ('$' + tip(bill_amount)) + "."));
+alert("Your total bill, including tip, is " + ('$' + tip(bill_amount)) + "."));
 
 //I also had this initially console.log the final bill amount sentence. I am not sure if there
 //is an easy way to have it print on the console AND be an alert, or if that would even be necessary.
